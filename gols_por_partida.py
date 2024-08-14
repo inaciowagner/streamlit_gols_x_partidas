@@ -60,7 +60,6 @@ with st.sidebar:
 
 
 # Outputs
-st.html("<h2>Para Aposta em Total de Gols</h2><br/>")
 
 
 if 'probabilities' in locals():
