@@ -66,7 +66,8 @@ if 'probabilities' in locals():
     st.html(f"<h3>{team_a} x {team_b}<h3>")
     for i, probability in enumerate(probabilities):
         g = float((i+1)/2)
-        st.write(f"Menos de {g} gols:", "{:.2f}".format(probability))
+        probability = probability * 100
+        st.write(f"Menos de {g} gols:", "{:.1f}%".format(probability))
 
 st.html("<p>Obs: Estes cálculos levam em conta apenas as médias dos times, não leva em consideração o fato do time jogar em casa ou fora, nem outra nem outra variável não matemática.</p>")
 st.markdown(" >### Garanta a melhor experiência de apostas abrindo uma conta no 1XBet")
