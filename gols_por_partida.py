@@ -7,7 +7,8 @@ st.set_page_config(layout="wide", page_icon="⚽", page_title="CAMGES")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.html("<h3>PROBABILIDADE <br> TOTAL DE G⚽LS</h3>")
+    st.html("<h3>CAMGES</h3>")
+    st.html("<h4>Calculadora Avançada de Médias de Gols para Estratégias</h4>")
 
  
 with col2:
