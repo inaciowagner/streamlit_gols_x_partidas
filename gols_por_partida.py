@@ -62,6 +62,7 @@ with st.sidebar:
 # Outputs
 
 
+
 if 'probabilities' in locals():
     st.html(f"<h3>{team_a} x {team_b}<h3>")
     for i, probability in enumerate(probabilities):
