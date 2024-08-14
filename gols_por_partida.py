@@ -2,7 +2,7 @@ import scipy.stats as stats
 import streamlit as st
 
 
-st.set_page_config(layout="wide", page_icon="⚽")
+st.set_page_config(layout="wide", page_icon="⚽", page_title="CAMGES")
 
 col1, col2, col3 = st.columns(3)
 
