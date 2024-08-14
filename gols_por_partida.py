@@ -15,6 +15,7 @@ with col2:
 
 with col3:
     st.html("<a href='https://youtu.be/2PF0aPN72hc' target='_blank'/><b>Veja um tutorial do app clicando aqui</b></a>")
+    st.html("<a href='https://www.footstats.com.br/#/ranking/equipes/984' target='_blank'/><b>Veja a plataforma com os dados clicando aqui</b></a>")
 
 def calculate_probabilities(team_a_goals_mean, team_b_goals_mean, team_a_goals_allowed_mean, team_b_goals_allowed_mean):
     # Calculate total goals scored (mean of team A goals + team B goals)
