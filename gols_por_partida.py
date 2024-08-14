@@ -4,6 +4,8 @@ import streamlit as st
 
 st.set_page_config(layout="wide", page_icon="⚽")
 
+st.html("<p>☝️Click aqui para iniciar</p>")
+
 col1, col2, col3 = st.columns(3)
 
 with col1:
