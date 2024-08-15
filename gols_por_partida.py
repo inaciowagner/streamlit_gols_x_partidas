@@ -16,8 +16,7 @@ with col2:
 
 with col3:
     st.html("<a href='https://youtu.be/2PF0aPN72hc' ><b>Veja um tutorial do app clicando aqui</b></a>")
-    st.html("<a href='https://www.footstats.com.br/#/ranking/equipes/984' target='_blank'><b>Veja a plataforma com os dados clicando aqui</b></a>")
-
+    
 
 def calculate_probabilities(team_a_goals_mean, team_b_goals_mean, team_a_goals_allowed_mean, team_b_goals_allowed_mean):
     # Calculate total goals scored (mean of team A goals + team B goals)
@@ -74,3 +73,11 @@ if 'probabilities' in locals():
 st.html("<p>Obs: Estes cálculos levam em conta apenas as médias dos times, não leva em consideração o fato do time jogar em casa ou fora, nem outra nem outra variável não matemática.</p>")
 st.markdown(" >#### Garanta a melhor experiência de apostas abrindo uma conta no 1XBet")
 st.html("<ul><li><strong>Odds sempre competitivas</strong></li><li><strong>Transmissões ao vivo</strong> dos seus jogos favoritos</li><li><strong>Bônus exclusivos</strong> para novos usuários</li><li><strong>Aplicativo mobile</strong> para apostar a qualquer hora e lugar</li><li><strong>Suporte 24/7</strong> para tirar todas as suas dúvidas</li></ul> <h4>Click aqui 👉 <a href='https://br.1x001.com?bf=669c07ae4d465_6600337423' class='botao-chamada'><img src='https://v3.traincdn.com/genfiles/cms/132-395/desktop/media_asset/90f345eff10cbd840aa7aa1b9c46800b.svg' width='100px' alt='logo do 1XBet'>  Cadastre-se Grátis  </a></h4>")
+
+def embed_youtube(https://youtu.be/2PF0aPN72hc?si=kqw2KrV-F8i8vjDJ):
+    """Embeds a YouTube video."""
+    return f"""
+    <iframe width="560" height="315" src="{https://youtu.be/2PF0aPN72hc?si=kqw2KrV-F8i8vjDJ}" frameborder="0" allowfullscreen></iframe>
+    """
+
+st.markdown(embed_youtube("https://youtu.be/2PF0aPN72hc?si=kqw2KrV-F8i8vjDJ"), unsafe_allow_html=True)
