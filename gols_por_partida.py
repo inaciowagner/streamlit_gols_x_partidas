@@ -74,4 +74,4 @@ st.html("<p>Obs: Estes cálculos levam em conta apenas as médias dos times, nã
 st.markdown(" >#### Garanta a melhor experiência de apostas abrindo uma conta no 1XBet")
 st.html("<ul><li><strong>Odds sempre competitivas</strong></li><li><strong>Transmissões ao vivo</strong> dos seus jogos favoritos</li><li><strong>Bônus exclusivos</strong> para novos usuários</li><li><strong>Aplicativo mobile</strong> para apostar a qualquer hora e lugar</li><li><strong>Suporte 24/7</strong> para tirar todas as suas dúvidas</li></ul> <h4>Click aqui 👉 <a href='https://br.1x001.com?bf=669c07ae4d465_6600337423' class='botao-chamada'><img src='https://v3.traincdn.com/genfiles/cms/132-395/desktop/media_asset/90f345eff10cbd840aa7aa1b9c46800b.svg' width='100px' alt='logo do 1XBet'>  Cadastre-se Grátis  </a></h4>")
 
-
+st.html("<a href='https://github.com/inaciowagner'><b>Conheça meu perfil no GitHub - inaciowagner</b></a>")
