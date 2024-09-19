@@ -42,7 +42,6 @@ def calculate_probabilities(team_a_goals_mean, team_b_goals_mean, team_a_goals_a
 st.sidebar.html("<img src='https://raw.githubusercontent.com/inaciowagner/streamlit_gols_x_partidas/refs/heads/main/camges.png' height='90px' width='272px' alt='CAMGES logo' >")
 #st.sidebar.html("<h3>CAMGES</h3>")
 st.sidebar.html("<h3>Calculadora Avançada de Médias de Gols para Estratégias</h3>")
-st.sidebar.html("<h4>Calculadora Avançada de Médias de Gols para Estratégias</h4>")
 st.sidebar.html("<a href='https://youtu.be/2PF0aPN72hc' ><b>Veja um tutorial do app clicando aqui</b></a>")
 
 
