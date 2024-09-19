@@ -39,9 +39,10 @@ def calculate_probabilities(team_a_goals_mean, team_b_goals_mean, team_a_goals_a
 
 
 # barra lateral
+st.sidebar.html("<img src='https://github.com/inaciowagner/streamlit_gols_x_partidas/blob/main/camges.png'>")
 st.sidebar.html("<h3>CAMGES</h3>")
+st.sidebar.html("<h3>Calculadora Avançada de Médias de Gols para Estratégias</h3>")
 st.sidebar.html("<h4>Calculadora Avançada de Médias de Gols para Estratégias</h4>")
-st.sidebar.html("<img src='st.sidebar.html("<img src='https://github.com/inaciowagner/streamlit_gols_x_partidas/blob/main/camges.png'>")'>")
 st.sidebar.html("<a href='https://youtu.be/2PF0aPN72hc' ><b>Veja um tutorial do app clicando aqui</b></a>")
 
 
@@ -151,3 +152,7 @@ st.dataframe(pd.read_excel("premier_league_analise_cartoes_arquivo_de_saida.xlsx
 
 ########### Fim do bloco Premier League #############
 st.html("<a href='https://github.com/inaciowagner'><b>Conheça meu perfil no GitHub - inaciowagner</b></a>")
+
+
+
+
