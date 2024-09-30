@@ -6,7 +6,7 @@ import scipy.stats as stats
 
 
 #st.set_page_config(layout="wide", page_icon="⚽", page_title="Futebol, Números & Estatísticas", )
-st.set_page_config(layout="wide", page_icon="⚽", page_title="CAMGES")
+st.set_page_config(layout="wide", page_icon="⚽", page_title="CAMGES", initial_sidebar_state="collapsed")
 
 
 
