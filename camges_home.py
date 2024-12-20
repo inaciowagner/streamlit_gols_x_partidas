@@ -70,7 +70,8 @@ if 'probabilities' in locals():
     for i, probability in enumerate(probabilities):
         g = float((i+1)/2)
         probability = probability * 100
-        st.write(f"Menos de {g} gols:", "{:.1f}%".format(probability))
+        probability2 = (probability - 100) * -1 
+        st.write("Menos de {} gols: {:.1f}% < - > Mais de {} gols: {:.1f}%".format(g, probability, g, probability2))
 
 
 
